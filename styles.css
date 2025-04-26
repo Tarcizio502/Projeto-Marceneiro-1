@@ -4,14 +4,6 @@
   box-sizing: content-box;
 }
 
-video {
-  width: 50vw;
-  height: 57vh;
-  position: relative;
-  top: 0px;
-  left: 331px;
-}
-
 h1 {
   position: absolute;
   margin-top: 40px;
@@ -20,43 +12,77 @@ h1 {
   background-color: none;
 }
 
+.con1 {
+  box-sizing: border-box;
+  background-color: aquamarine;
+  width: 340px;
+  height: 285px;
+  font-weight: bolder;
+  border: rgb(33, 31, 34);
+  border-radius: 17px;
+}
+
 p {
   font-size: 40px;
   color: blue;
-  margin-left: 430px;
+  margin-left: 8px;
+  margin-top: -102px;
   position: fixed;
 }
 
-.con1 {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  font-size: 40px;
-  left: 430px;
-  bottom: 30px;
-  cursor: pointer;
-  z-index: 98;
+.whatt {
+  margin-left: 10px;
+  margin-top: 87px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.inst {
+  margin-top: 10px;
+  margin-bottom: -77px;
+  margin-left: -34px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.gma {
+  margin-left: -35px;
+  margin-bottom: -154px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
 }
 
 .emai {
   margin-bottom: 10px;
   color: rgb(228, 19, 19);
+  text-decoration: none;
 }
 
 .tele {
-  margin-top: 10px;
+  position: absolute;
+  margin-top: 166px;
+  margin-left: -37px;
   color: rgb(19, 228, 29);
+  text-decoration: none;
 }
 
-.inst {
-  margin-top: 10px;
+.ins {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-top: 244px;
+  margin-left: -34px;
   color: rgb(132, 14, 241);
+  text-decoration: none;
 }
 
 .slider {
   position: absolute;
   margin: 0 auto;
-  margin-left: 1003px;
+  margin-left: 1019px;
   width: 340px;
   height: 340px;
   overflow: hidden;
@@ -201,7 +227,7 @@ p {
 }
 
 #radio15:checked ~ .ninth {
-  margin-left: -2032px;
+  margin-left: -2040px;
 }
 
 #radio16:checked ~ .ninth {
