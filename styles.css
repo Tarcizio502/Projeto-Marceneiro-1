@@ -58,7 +58,7 @@ p {
   color: blue;
   margin-left: 8px;
   margin-top: -102px;
-  position: fixed;
+  position: absolute;
 }
 
 .whatt {
