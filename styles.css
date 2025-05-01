@@ -6,11 +6,42 @@
 
 h1 {
   position: absolute;
+  font-size: 61px;
+  color: aliceblue;
+  margin-top: 153px;
+  margin-left: 500px;
+}
+
+.primg {
+  width: 100vw;
+  height: 50vh;
+}
+
+.cax {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 15vh;
+  margin-left: 289px;
+}
+
+h2 {
+  font-size: 50px;
+  color: black;
+  /*width: 69vw;
+  height: 26vh;*/
+}
+
+p {
+  position: absolute;
+  font-size: 34px;
   width: 650px;
-  margin-top: 209px;
+  margin-top: 224px;
   margin-left: 366px;
   color: rgb(248, 246, 246);
-  background-color: none;
+  /*background-color: none;*/
 }
 
 .form {
@@ -26,6 +57,9 @@ h1 {
 .form-control {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  margin-left: 344px;
+  margin-top: 928px;
 }
 
 .form-control input {
@@ -48,12 +82,13 @@ h1 {
   background-color: aquamarine;
   width: 340px;
   height: 285px;
+  margin-top: 799px;
   font-weight: bolder;
-  border: rgb(33, 31, 34);
+  border: rgb(49, 45, 51);
   border-radius: 17px;
 }
 
-p {
+h3 {
   font-size: 40px;
   color: blue;
   margin-left: 8px;
@@ -112,11 +147,25 @@ p {
 
 .par2 {
   box-sizing: border-box;
-  background-color: rgb(2, 17, 5);
-  margin-top: 65px;
+  background-color: rgb(56, 59, 56);
+  margin-top: -1083px;
   width: 100vw;
-  height: 81vh;
+  height: 142vh;
   font-weight: bolder;
+}
+
+.sala {
+  position: relative;
+  margin-left: 104px;
+  width: 439px;
+  height: 340px;
+}
+
+.coz {
+  position: absolute;
+  width: 439px;
+  height: 340px;
+  margin-left: 275px;
 }
 
 .slider {
@@ -125,7 +174,7 @@ p {
   margin-left: 1019px;
   width: 340px;
   height: 340px;
-  margin-top: 180px;
+  margin-top: 228px;
   overflow: hidden;
 }
 
@@ -202,8 +251,8 @@ p {
   position: absolute;
   width: 340px;
   height: 340px;
-  margin-left: 2px;
-  margin-top: 180px;
+  margin-left: 0;
+  margin-top: 228px;
   overflow: hidden;
 }
 
