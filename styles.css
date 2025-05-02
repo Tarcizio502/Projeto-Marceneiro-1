@@ -13,7 +13,7 @@ h1 {
 }
 
 .primg {
-  width: 100vw;
+  width: 99vw;
   height: 50vh;
 }
 
@@ -77,17 +77,6 @@ p {
   border-radius: 3px;
 }
 
-.con1 {
-  box-sizing: border-box;
-  background-color: aquamarine;
-  width: 340px;
-  height: 285px;
-  margin-top: 799px;
-  font-weight: bolder;
-  border: rgb(49, 45, 51);
-  border-radius: 17px;
-}
-
 h3 {
   font-size: 40px;
   color: blue;
@@ -96,60 +85,11 @@ h3 {
   position: absolute;
 }
 
-.whatt {
-  margin-left: 10px;
-  margin-top: 87px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-.inst {
-  margin-top: 10px;
-  margin-bottom: -77px;
-  margin-left: -34px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-.gma {
-  margin-left: -35px;
-  margin-bottom: -154px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
-}
-
-.emai {
-  margin-bottom: 10px;
-  color: rgb(228, 19, 19);
-  text-decoration: none;
-}
-
-.tele {
-  position: absolute;
-  margin-top: 166px;
-  margin-left: -37px;
-  color: rgb(19, 228, 29);
-  text-decoration: none;
-}
-
-.ins {
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  margin-top: 244px;
-  margin-left: -34px;
-  color: rgb(132, 14, 241);
-  text-decoration: none;
-}
-
 .par2 {
   box-sizing: border-box;
   background-color: rgb(56, 59, 56);
-  margin-top: -1083px;
-  width: 100vw;
+  margin-top: 3px;
+  width: 99vw;
   height: 142vh;
   font-weight: bolder;
 }
@@ -161,17 +101,53 @@ h3 {
   height: 340px;
 }
 
+h5 {
+  position: absolute;
+  font-size: 45px;
+  margin-left: 178px;
+  margin-top: 7px;
+  color: aliceblue;
+}
+
+h4 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 439px;
+  margin-top: 73px;
+  margin-left: 108px;
+  font-size: 20px;
+  color: aliceblue;
+}
+
 .coz {
   position: absolute;
   width: 439px;
   height: 340px;
-  margin-left: 275px;
+  margin-left: 262px;
+}
+
+h6 {
+  position: absolute;
+  margin-left: 838px;
+  margin-top: 7px;
+  font-size: 45px;
+  color: rgb(247, 248, 250);
+}
+
+h7 {
+  position: absolute;
+  box-sizing: border-box;
+  width: 439px;
+  margin-left: 278px;
+  margin-top: 420px;
+  font-size: 20px;
+  color: aliceblue;
 }
 
 .slider {
   position: absolute;
   margin: 0 auto;
-  margin-left: 1019px;
+  margin-left: 1004px;
   width: 340px;
   height: 340px;
   margin-top: 228px;
@@ -322,4 +298,64 @@ h3 {
 
 #radio16:checked ~ .ninth {
   margin-left: -2394px;
+}
+
+.con1 {
+  box-sizing: border-box;
+  background-color: aquamarine;
+  width: 340px;
+  height: 285px;
+  margin-top: 799px;
+  font-weight: bolder;
+  border: rgb(49, 45, 51);
+  border-radius: 17px;
+}
+
+.whatt {
+  margin-left: 10px;
+  margin-top: 87px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.inst {
+  margin-top: 10px;
+  margin-bottom: -77px;
+  margin-left: -34px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.gma {
+  margin-left: -35px;
+  margin-bottom: -154px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.emai {
+  margin-bottom: 10px;
+  color: rgb(228, 19, 19);
+  text-decoration: none;
+}
+
+.tele {
+  position: absolute;
+  margin-top: 166px;
+  margin-left: -37px;
+  color: rgb(15, 143, 58);
+  text-decoration: none;
+}
+
+.ins {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  margin-top: 244px;
+  margin-left: -34px;
+  color: rgb(132, 14, 241);
+  text-decoration: none;
 }
