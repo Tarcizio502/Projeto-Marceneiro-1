@@ -6,10 +6,10 @@
 
 h1 {
   position: absolute;
-  font-size: 61px;
+  font-size: 71px;
   color: aliceblue;
   margin-top: 153px;
-  margin-left: 500px;
+  margin-left: 425px;
 }
 
 .primg {
@@ -46,28 +46,28 @@ p {
 
 .form {
   max-width: 295px;
-  border: 2px solid rgb(10, 10, 10);
-  border-radius: 3px;
-  background-color: rgb(245, 242, 242);
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 7px;
+  background-color: rgb(179, 226, 233);
 
-  padding: 20px;
-  font-size: 22px;
+  padding: 10px;
+  font-size: 21px;
 }
 
 .form-control {
   display: flex;
   flex-direction: column;
   position: absolute;
-  margin-left: 344px;
-  margin-top: 928px;
+  margin-left: 815px;
+  margin-top: -365px;
 }
 
 .form-control input {
   background-color: rgb(248, 245, 246);
-  border: none;
-  border-bottom: 1 px solid rgb(10, 10, 10);
+  /*border: none;
+  border-bottom: 1 px solid rgb(10, 10, 10);*/
   outline: transparent;
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .form select {
@@ -77,12 +77,31 @@ p {
   border-radius: 3px;
 }
 
+.btn {
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  margin: 4px auto;
+  color: wheat;
+  padding: 4px 0px;
+  cursor: pointer;
+  background-color: rgb(233, 8, 8);
+  border: none;
+  border-radius: 12px;
+  transform: transform 0, 02s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
 h3 {
-  font-size: 40px;
+  display: none;
+  /*font-size: 40px;
   color: blue;
   margin-left: 8px;
   margin-top: -102px;
-  position: absolute;
+  position: absolute;*/
 }
 
 .par2 {
@@ -300,62 +319,89 @@ h7 {
   margin-left: -2394px;
 }
 
+.fii {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 389px;
+  margin-top: 75px;
+  background-color: #c3be167a;
+}
+
+h8 {
+  position: absolute;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  margin-top: -59px;
+  margin-left: 418px;
+  color: rgb(9, 12, 15);
+}
+
 .con1 {
   box-sizing: border-box;
   background-color: aquamarine;
-  width: 340px;
-  height: 285px;
-  margin-top: 799px;
+  width: 327px;
+  height: 350px;
+  margin-top: -365px;
+  margin-left: 206px;
   font-weight: bolder;
   border: rgb(49, 45, 51);
-  border-radius: 17px;
+  border-radius: 7px;
 }
 
 .whatt {
+  position: absolute;
   margin-left: 10px;
-  margin-top: 87px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
+  margin-top: 31px;
+  width: 50px;
+  height: 45px;
+  border-radius: 18px;
 }
 
 .inst {
-  margin-top: 10px;
-  margin-bottom: -77px;
-  margin-left: -34px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
+  position: absolute;
+  margin-top: 160px;
+  margin-left: 9px;
+  width: 50px;
+  height: 45px;
+  border-radius: 17px;
 }
 
 .gma {
-  margin-left: -35px;
-  margin-bottom: -154px;
-  width: 30px;
-  height: 25px;
-  border-radius: 5px;
+  position: absolute;
+  margin-left: 9px;
+  margin-top: 280px;
+  width: 50px;
+  height: 45px;
+  border-radius: 17px;
 }
 
 .emai {
-  margin-bottom: 10px;
+  position: absolute;
+  margin-top: 153px;
+  font-family: sans-serif;
+  font-size: 56px;
+  margin-left: 77px;
   color: rgb(228, 19, 19);
   text-decoration: none;
 }
 
 .tele {
   position: absolute;
-  margin-top: 166px;
-  margin-left: -37px;
+  font-family: sans-serif;
+  font-size: 56px;
+  margin-top: 21px;
+  margin-left: 72px;
   color: rgb(15, 143, 58);
   text-decoration: none;
 }
 
 .ins {
   position: absolute;
-  padding: 0;
-  margin: 0;
-  margin-top: 244px;
-  margin-left: -34px;
+  font-family: sans-serif;
+  font-size: 51px;
+  margin-top: 274px;
+  margin-left: 74px;
   color: rgb(132, 14, 241);
   text-decoration: none;
 }
