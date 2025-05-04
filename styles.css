@@ -34,76 +34,6 @@ h2 {
   height: 26vh;*/
 }
 
-p {
-  position: absolute;
-  font-size: 34px;
-  width: 650px;
-  margin-top: 224px;
-  margin-left: 366px;
-  color: rgb(248, 246, 246);
-  /*background-color: none;*/
-}
-
-.form {
-  max-width: 295px;
-  border: 1px solid rgb(10, 10, 10);
-  border-radius: 7px;
-  background-color: rgb(179, 226, 233);
-
-  padding: 10px;
-  font-size: 21px;
-}
-
-.form-control {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  margin-left: 815px;
-  margin-top: -365px;
-}
-
-.form-control input {
-  background-color: rgb(248, 245, 246);
-  /*border: none;
-  border-bottom: 1 px solid rgb(10, 10, 10);*/
-  outline: transparent;
-  font-size: 21px;
-}
-
-.form select {
-  background-color: transparent;
-  outline: transparent;
-  font-size: 32px;
-  border-radius: 3px;
-}
-
-.btn {
-  font-size: 32px;
-  display: block;
-  width: 100%;
-  margin: 4px auto;
-  color: wheat;
-  padding: 4px 0px;
-  cursor: pointer;
-  background-color: rgb(233, 8, 8);
-  border: none;
-  border-radius: 12px;
-  transform: transform 0, 02s;
-}
-
-.btn:hover {
-  transform: scale(1.05);
-}
-
-h3 {
-  display: none;
-  /*font-size: 40px;
-  color: blue;
-  margin-left: 8px;
-  margin-top: -102px;
-  position: absolute;*/
-}
-
 .par2 {
   box-sizing: border-box;
   background-color: rgb(56, 59, 56);
@@ -161,6 +91,16 @@ h7 {
   margin-top: 420px;
   font-size: 20px;
   color: aliceblue;
+}
+
+p {
+  position: absolute;
+  font-size: 34px;
+  width: 650px;
+  margin-top: 224px;
+  margin-left: 366px;
+  color: rgb(248, 246, 246);
+  /*background-color: none;*/
 }
 
 .slider {
@@ -337,6 +277,57 @@ h8 {
   color: rgb(9, 12, 15);
 }
 
+.form-control {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 815px;
+  margin-top: -365px;
+}
+
+.form-control input {
+  background-color: rgb(248, 245, 246);
+  /*border: none;
+  border-bottom: 1 px solid rgb(10, 10, 10);*/
+  outline: transparent;
+  font-size: 21px;
+}
+
+.form {
+  max-width: 295px;
+  border: 1px solid rgb(10, 10, 10);
+  border-radius: 7px;
+  background-color: rgb(179, 226, 233);
+
+  padding: 10px;
+  font-size: 21px;
+}
+
+.form select {
+  background-color: transparent;
+  outline: transparent;
+  font-size: 32px;
+  border-radius: 3px;
+}
+
+.btn {
+  font-size: 32px;
+  display: block;
+  width: 100%;
+  margin: 4px auto;
+  color: wheat;
+  padding: 4px 0px;
+  cursor: pointer;
+  background-color: rgb(233, 8, 8);
+  border: none;
+  border-radius: 12px;
+  transform: transform 0, 02s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
 .con1 {
   box-sizing: border-box;
   background-color: aquamarine;
@@ -376,6 +367,15 @@ h8 {
   border-radius: 17px;
 }
 
+h3 {
+  display: none;
+  /*font-size: 40px;
+  color: blue;
+  margin-left: 8px;
+  margin-top: -102px;
+  position: absolute;*/
+}
+
 .emai {
   position: absolute;
   margin-top: 153px;
@@ -404,4 +404,20 @@ h8 {
   margin-left: 74px;
   color: rgb(132, 14, 241);
   text-decoration: none;
+}
+
+@media (max-width: 670px) {
+  h1 {
+    position: absolute;
+    font-size: 83px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 223px;
+    margin-top: 74px;
+  }
+
+  .primg {
+    width: 835px;
+    height: 344px;
+  }
 }
