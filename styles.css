@@ -444,6 +444,14 @@ h3 {
     z-index: 99;
   }
 
+  .par2 {
+    box-sizing: border-box;
+    margin: 0;
+    width: 0;
+    height: 0;
+    font-weight: bolder;
+  }
+
   .sala {
     position: absolute;
     margin-top: 769px;
@@ -454,19 +462,18 @@ h3 {
 
   h5 {
     position: absolute;
-    font-size: 169px;
+    font-size: 115px;
     font-weight: 700;
     text-wrap-mode: nowrap;
     margin-top: 1459px;
-    margin-left: 124px;
-    color: blueviolet;
+    margin-left: 134px;
+    color: rgb(21, 20, 22);
   }
 
   h4 {
     position: absolute;
     margin-top: 1675px;
     margin-left: 59px;
-
     font-size: 63px;
     color: black;
     font-weight: lighter;
@@ -483,10 +490,27 @@ h3 {
 
   h6 {
     position: absolute;
-    font-size: 101px;
+    font-size: 115px;
+    font-weight: 700;
     margin-top: 2712px;
     margin-left: 189px;
     text-wrap-mode: nowrap;
     color: black;
+  }
+
+  h7 {
+    position: absolute;
+    margin-top: 2926px;
+    margin-left: 59px;
+    font-size: 63px;
+    color: black;
+    font-weight: lighter;
+    width: 1306px;
+  }
+  .slider {
+    display: none;
+  }
+  .slider1 {
+    display: none;
   }
 }
