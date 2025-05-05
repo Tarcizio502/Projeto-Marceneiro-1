@@ -406,7 +406,7 @@ h3 {
   text-decoration: none;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 767px) {
   h1 {
     position: absolute;
     font-size: 83px;
@@ -426,9 +426,9 @@ h3 {
     font-size: 62px;
     text-align: center;
     font-weight: inherit;
-    margin-top: -444px;
-    margin-left: 158px;
-    width: 970px;
+    margin-top: -63px;
+    margin-left: 42px;
+    width: 1232px;
     height: 346px;
     color: black;
   }
@@ -438,9 +438,46 @@ h3 {
     font-size: 162px;
     font-weight: 700;
     text-align: center;
-    margin-top: 1564px;
+    margin-top: 1346px;
     margin-left: 448px;
     color: black;
     z-index: 99;
+  }
+
+  .sala {
+    position: absolute;
+    margin-top: 742px;
+    margin-left: 0px;
+    height: 671px;
+    width: 1346px;
+  }
+
+  h5 {
+    position: absolute;
+    font-size: 169px;
+    font-weight: 700;
+    text-wrap-mode: nowrap;
+    margin-top: 1427px;
+    margin-left: 154px;
+    color: blueviolet;
+  }
+
+  h4 {
+    position: absolute;
+    margin-top: 1675px;
+    margin-left: 46px;
+
+    font-size: 63px;
+    color: black;
+    font-weight: lighter;
+    width: 1306px;
+  }
+
+  .coz {
+    position: absolute;
+    width: 1345px;
+    height: 679px;
+    margin-top: 1967px;
+    margin-left: 0;
   }
 }
