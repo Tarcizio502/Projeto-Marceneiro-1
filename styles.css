@@ -426,7 +426,7 @@ h3 {
     font-size: 62px;
     text-align: center;
     font-weight: inherit;
-    margin-top: -63px;
+    margin-top: -77px;
     margin-left: 42px;
     width: 1232px;
     height: 346px;
@@ -438,7 +438,7 @@ h3 {
     font-size: 162px;
     font-weight: 700;
     text-align: center;
-    margin-top: 1346px;
+    margin-top: 1420px;
     margin-left: 448px;
     color: black;
     z-index: 99;
@@ -446,10 +446,10 @@ h3 {
 
   .sala {
     position: absolute;
-    margin-top: 742px;
+    margin-top: 769px;
     margin-left: 0px;
     height: 671px;
-    width: 1346px;
+    width: 345vw;
   }
 
   h5 {
@@ -457,15 +457,15 @@ h3 {
     font-size: 169px;
     font-weight: 700;
     text-wrap-mode: nowrap;
-    margin-top: 1427px;
-    margin-left: 154px;
+    margin-top: 1459px;
+    margin-left: 124px;
     color: blueviolet;
   }
 
   h4 {
     position: absolute;
     margin-top: 1675px;
-    margin-left: 46px;
+    margin-left: 59px;
 
     font-size: 63px;
     color: black;
@@ -475,9 +475,18 @@ h3 {
 
   .coz {
     position: absolute;
-    width: 1345px;
+    width: 345vw;
     height: 679px;
-    margin-top: 1967px;
+    margin-top: 1996px;
     margin-left: 0;
+  }
+
+  h6 {
+    position: absolute;
+    font-size: 101px;
+    margin-top: 2712px;
+    margin-left: 189px;
+    text-wrap-mode: nowrap;
+    color: black;
   }
 }
