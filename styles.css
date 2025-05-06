@@ -406,7 +406,7 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 950px) {
   h1 {
     position: absolute;
     font-size: 83px;
