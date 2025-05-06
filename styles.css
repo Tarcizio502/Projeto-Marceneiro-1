@@ -507,10 +507,45 @@ h3 {
     font-weight: lighter;
     width: 1306px;
   }
+
   .slider {
     display: none;
   }
+
   .slider1 {
     display: none;
+  }
+  .form-control {
+    position: absolute;
+    margin-top: 2988px;
+    margin-left: 57px;
+    width: 332vw;
+    height: 240vh;
+    z-index: 98;
+  }
+
+  .form-control input {
+    background-color: rgb(248, 245, 246);
+    /*border: none;
+    border-bottom: 1 px solid rgb(10, 10, 10);*/
+    outline: transparent;
+    font-size: 79px;
+  }
+
+  .form {
+    max-width: 1166px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 7px;
+    background-color: rgb(179, 226, 233);
+
+    padding: 40px;
+    font-size: 88px;
+  }
+
+  h8 {
+    position: absolute;
+    margin-top: 3400px;
+    font-size: 49px;
+    color: rgb(236, 19, 19);
   }
 }
