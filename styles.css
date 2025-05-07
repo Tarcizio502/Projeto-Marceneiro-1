@@ -408,7 +408,10 @@ h3 {
 @media screen and (max-width: 950px) { 
 
   body{ 
-    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     width:100%;
   
   h1 {
