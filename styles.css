@@ -408,7 +408,7 @@ h3 {
 @media screen and (max-width: 950px) { 
 
   body{ 
-    box-sizing: border-box;
+    box-sizing: content-box;
     width:100%;
   
   h1 {
