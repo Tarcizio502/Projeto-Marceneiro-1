@@ -1,6 +1,4 @@
-body {
-  margin: 0;
-  padding: 0; 
+body { 
   width: 100%;
   box-sizing: content-box;
 }
@@ -407,7 +405,12 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 950px) { 
+
+  body{ 
+    box-sizing: content-box;
+    width:100%;
+  
   h1 {
     position: absolute;
     font-size: 83px;
