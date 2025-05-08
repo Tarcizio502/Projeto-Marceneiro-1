@@ -1,5 +1,6 @@
 body {
-  width: 100%;
+  margin: 0;
+  width: 100vw;
   box-sizing: content-box;
 }
 
@@ -407,8 +408,9 @@ h3 {
 
 @media screen and (max-width: 950px) {
   body {
+    margin: 0;
     box-sizing: content-box;
-    width: 100%;
+    width: 100vw;
   }
   h1 {
     position: absolute;
@@ -438,10 +440,10 @@ h3 {
 
   h2 {
     position: absolute;
-    font-size: 162px;
+    font-size: 115px;
     font-weight: 700;
     text-align: center;
-    margin-top: 1520px;
+    margin-top: 1600px;
     margin-left: 448px;
     color: black;
     z-index: 99;
@@ -455,9 +457,13 @@ h3 {
     font-weight: bolder;
   }
 
+  .fii {
+    display: none;
+  }
+
   .sala {
     position: absolute;
-    margin-top: 801px;
+    margin-top: 828px;
     margin-left: 0px;
     height: 671px;
     width: 345vw;
