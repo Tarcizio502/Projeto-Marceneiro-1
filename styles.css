@@ -521,7 +521,7 @@ h3 {
   .form-control {
     position: absolute;
     margin-top: 2988px;
-    margin-left: 57px;
+    margin-left: 90px;
     width: 304vw;
     height: 240vh;
     z-index: 98;
@@ -564,9 +564,9 @@ h3 {
     position: absolute;
     box-sizing: border-box;
     background-color: black;
-    width: 1359px;
-    height: 551px;
+    width: 1426px;
+    height: 683px;
     margin-left: 0;
-    margin-top: 4340px;
+    margin-top: 4479px;
   }
 }
