@@ -1,4 +1,4 @@
-body { 
+body {
   width: 100%;
   box-sizing: content-box;
 }
@@ -405,12 +405,11 @@ h3 {
   text-decoration: none;
 }
 
-@media screen and (max-width: 950px) { 
-
-  body{ 
+@media screen and (max-width: 950px) {
+  body {
     box-sizing: content-box;
-    width:100%;
-  
+    width: 100%;
+  }
   h1 {
     position: absolute;
     font-size: 83px;
@@ -442,7 +441,7 @@ h3 {
     font-size: 162px;
     font-weight: 700;
     text-align: center;
-    margin-top: 1420px;
+    margin-top: 1520px;
     margin-left: 448px;
     color: black;
     z-index: 99;
@@ -458,7 +457,7 @@ h3 {
 
   .sala {
     position: absolute;
-    margin-top: 769px;
+    margin-top: 801px;
     margin-left: 0px;
     height: 671px;
     width: 345vw;
@@ -469,8 +468,8 @@ h3 {
     font-size: 115px;
     font-weight: 700;
     text-wrap-mode: nowrap;
-    margin-top: 1459px;
-    margin-left: 134px;
+    margin-top: 1510px;
+    margin-left: 258px;
     color: rgb(21, 20, 22);
   }
 
@@ -523,15 +522,15 @@ h3 {
     position: absolute;
     margin-top: 2988px;
     margin-left: 57px;
-    width: 332vw;
+    width: 304vw;
     height: 240vh;
     z-index: 98;
   }
 
   .form-control input {
     background-color: rgb(248, 245, 246);
-    /*border: none;
-    border-bottom: 1 px solid rgb(10, 10, 10);*/
+    border: none;
+    border-bottom: 1 px solid rgb(10, 10, 10);
     outline: transparent;
     font-size: 79px;
   }
@@ -544,6 +543,11 @@ h3 {
 
     padding: 40px;
     font-size: 88px;
+  }
+
+  .btn {
+    margin-left: -6px;
+    height: 110px;
   }
 
   h8 {
