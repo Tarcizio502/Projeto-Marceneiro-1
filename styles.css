@@ -418,6 +418,7 @@ h3 {
 }
 
   h1{  
+     width: 100%;
      font-size: 60px;  
     align-items: center; 
      text-align: center; 
@@ -433,6 +434,7 @@ h3 {
 }
 
 h2 { 
+  width: 100%;
    font-family: serif; 
    font-size: 51px; 
    align-items: center;
@@ -455,6 +457,7 @@ h2 {
 }
 
 h5{  
+  width: 100%; 
   font-family: serif;
   font-size: 51px; 
   align-items: center;
