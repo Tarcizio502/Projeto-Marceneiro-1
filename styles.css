@@ -12,8 +12,8 @@
 
 h1 {
   position: absolute;
+  left: 381px;
   top: 142px;
-  text-align: center;
   font-family: sans-serif;
   font-size: 65px;
   color: aliceblue;
@@ -270,17 +270,20 @@ h5 {
 
 .form {
   max-width: 350px;
+  height: 86px;
   border: 1px solid rgb(10, 10, 10);
   border-radius: 10px;
   background-color: rgb(245, 242, 242);
   margin: auto;
-  padding: 24px;
+  padding: 21px;
   font-size: 25px;
 }
 
 .form-control {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  left: 708px;
 }
 
 .form-control input {
@@ -326,10 +329,10 @@ h5 {
 }
 
 .con1 {
-  position: relative;
-  bottom: 475px;
-  left: 24px;
-  height: 363px;
+  position: absolute;
+  top: 1406px;
+  left: 274px;
+  height: 376px;
   width: 296px;
   border-radius: 16px;
   background: rgb(29, 24, 24);
@@ -361,7 +364,7 @@ h5 {
 
 .emai {
   position: relative;
-  bottom: 53px;
+  bottom: 37px;
   left: 88px;
   font-family: sans-serif;
   font-size: 46px;
@@ -374,7 +377,7 @@ h5 {
 .tele {
   position: relative;
   left: 81px;
-  top: 43px;
+  top: 54px;
   font-family: sans-serif;
   font-size: 46px;
   font-weight: 700;
@@ -386,7 +389,7 @@ h5 {
 .ins {
   position: relative;
   left: 72px;
-  top: 141px;
+  top: 152px;
   font-family: sans-serif;
   font-size: 46px;
   font-weight: 700;
