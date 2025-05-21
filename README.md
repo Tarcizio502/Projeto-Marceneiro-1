@@ -7,3 +7,5 @@ Esse projeto foi uma excelente oportunidade para aplicar meus conhecimentos em f
 <br>
 <h2>Link do projeto</h2> 
 <a href=https://lnkd.in/dbVAau9A>Studio Planejada</a>
+<br> 
+<img src=![image](https://github.com/user-attachments/assets/76c8f7f0-a86e-4abf-8c02-25a1ad8105a3) />
