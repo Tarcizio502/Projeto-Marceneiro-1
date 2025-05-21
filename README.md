@@ -1,0 +1,9 @@
+<h1>Studio Planejado</h1>
+<br> 
+<p>Estou animado para compartilhar mais um projeto que desenvolvi: Studio Planejado, um site para uma marcenaria especializada na venda de móveis planejados.💡 Funcionalidades implementadas:
+Integração com WhatsApp, Instagram e e-mail para facilitar o contato do cliente
+Formulário de cadastro personalizado, onde o cliente informa nome, cidade, telefone e e-mail
+Esse projeto foi uma excelente oportunidade para aplicar meus conhecimentos em front-end, responsividade e interatividade com o usuário.</p> 
+<br>
+<h2>Link do projeto</h2> 
+<a href=https://lnkd.in/dbVAau9A>Studio Planejada</a>
