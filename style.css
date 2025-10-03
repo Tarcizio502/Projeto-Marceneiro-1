@@ -31,7 +31,7 @@
     display: flex;
     margin: 0;
     width: 100vw;
-    height: 34vh;
+    height: 29vh;
 }
  .cax{ 
   display: flex;
@@ -47,7 +47,7 @@
  }
  .par2 img{ 
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
  }
  .par2 h3{ 
   display: flex; 
@@ -225,87 +225,10 @@ section h2{
 }
  .slider {
   display: none;
- /* position: absolute;
-  left: 50%;
-  transform: translate(-169px, 466px);
-  width: 340px;
-  height: 340px;
-  overflow: hidden;*/
 }
-
-/*.slides {
-  width: 340%;
-  height: 340px;
-  display: flex;
-}
-
-.slides input {
-  display: none;
-  
-}
-
-.cad first {
-  width: 25%;
-  position: absolute;
-}
-
-.cad img {
-  width: 340px;
-  height: 340px;
-}
-
-.manual-navigation {
-  position: absolute;
-  width: 336px;
-  margin-top: -20px;
-  display: flex;
-  justify-content: center;
-}
-
-.manual-btn {
-  padding: 0px;
-  transition: 2s;
-}
-
-.manual-btn:not(:last-child) {
-  margin-right: 27px;
-}
-
-#radio1:checked ~ .first {
-  margin-left: 0; 
-}
-
-#radio2:checked ~ .first {
-  margin-left: -56.9%;
-}
-
-#radio3:checked ~ .first {
-  margin-left: -113.7%;
-}
-
-#radio4:checked ~ .first {
-  margin-left: -170.6%;
-}
-
-#radio5:checked ~ .first {
- margin-left: -227.8%;
-}
-
-#radio6:checked ~ .first {
-  margin-left: -284.3%;
-}
-
-#radio7:checked ~ .first {
-  margin-left: -341.2%;
-}
-
-#radio8:checked ~ .first {
-  margin-left: -401.7%;
-}*/
 
 .slider1 {
   position: absolute;
-  /*top: 1003px;*/
   width: 340px;
   height: 340px;
   left: 50%;
@@ -439,6 +362,7 @@ footer h5{
  color: black;
 }
 }
+
  @media screen and (min-width: 715px) and (max-width: 900px) { 
   body{ 
     margin: 0; 
