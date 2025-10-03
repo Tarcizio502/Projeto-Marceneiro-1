@@ -210,13 +210,23 @@ footer h5{
     font-size: 15px;
     margin: 10px;
  }
- section{ 
+ section { 
+  background-color: black;
+  width: 100%;
+  min-height: 100vh; /* ocupa a tela toda, mas cresce se precisar */
+  margin: 10px auto;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box; /* evita estourar largura */
+}
+
+ /*section{ 
     background-color: black;
     width: 100vw;
     height: 107vh;
     margin: 10px 0px 10px;
     border-radius: 30px;
-}
+}*/
 section h2{ 
     color: aliceblue;
     display: flex;
